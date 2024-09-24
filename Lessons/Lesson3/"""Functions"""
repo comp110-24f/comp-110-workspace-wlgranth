@@ -1,0 +1,11 @@
+"""Functions"""
+
+
+# Define a function
+def sum(num1: int, num2: int) -> int:  # <- signature
+    """Return Num1 + Num2."""
+    return num1 + num2
+
+
+# Call the function
+print(sum(num1=3, num2=7))  # <- 3 and 7 are arguments
